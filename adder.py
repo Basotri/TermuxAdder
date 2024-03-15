@@ -74,7 +74,7 @@ for chat in chats:
 
 print('Choose a group to add members: ')
 i = 0
-for group in enumerate(groups):
+for group in groups:
     print(str(i) + '- ' + group.title)
     i +=1
     
