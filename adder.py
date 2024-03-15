@@ -76,7 +76,7 @@ print('Choose a group to add members: ')
 i = 0
 for group in groups:
     print(str(i) + '- ' + group.title)
-    i +=1
+    i += 1
     
 g_index = input("Enter a Number: ")
 target_group = groups[int(g_index)]
