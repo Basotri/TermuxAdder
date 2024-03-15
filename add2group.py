@@ -62,7 +62,7 @@ with open(input_file, encoding='UTF-8') as f:
         users['id'] = int(row[1])
         users['access_hash'] = int(row[2])
         users['name'] = row[3]
-        users.append(user)
+        users.append(users)
 
 chats = []
 last_date = None
